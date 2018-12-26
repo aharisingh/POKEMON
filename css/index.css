@@ -1,0 +1,120 @@
+body{
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+/*navbar*/
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: orange;
+}
+/*carousel*/
+
+.carousel-item{
+    height: 550px;
+    background-color: #777;
+}
+#carouselExampleIndicators{
+    padding-bottom: 10px;
+}
+
+
+.carousel-inner > carousel-item > img {
+    height: 600px;
+    position: absolute;
+    min-width: 100%;
+    top: 0;
+    left: 0
+        bottom : 0;
+}
+
+/*
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -550px;
+    color: orange;
+   
+    
+}
+*/
+/*team section*/
+.container.team{
+    padding-top: 20px;
+}
+.container > .row > .col-lg-4{
+    text-align:center;
+    margin-bottom: 20px;
+    
+}
+.container > .row > .col-lg-4 > h2{
+    font-size: 40px;
+    color: green;
+    
+}
+
+.container > .row > .col-lg-4 > p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.container > .row > .col-lg-4 >img{
+    width: 250px;
+    height: 250px;
+}
+.divider{
+    background-color: green;
+}
+/*content-section*/
+
+.content-image{
+    width: 100%;
+    height: 300px;
+
+}
+.content .col-md-7 {
+    text-align: center;
+    padding-top: 40px;
+}
+.content {
+    padding-bottom: 20px;
+}
+/*footer*/
+footer{
+   padding-left: 450px;
+    font-size: 25px;
+}
+
+
+/*media queries*/
+@media (max-width: 768px){
+    .carousel-inner{
+        height: 250px;
+       
+    }
+    #carouselExampleIndicators{
+        margin-top: 30px;
+        position: relative;
+    }
+    .carousel-caption{
+        position: absolute;
+        margin-bottom: 90%;
+        
+    }
+    
+    .mbx{
+        margin-bottom: 10px;
+    }
+    .content-image{
+        transform: none !important;
+    }
+    .height{
+        height: 300px;
+    }
+}
